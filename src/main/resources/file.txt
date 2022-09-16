@@ -1,0 +1,11 @@
+cat, dog frog: elephant
+parrot	hamster; chinchilla
+
+pig, cow
+	rat, mouse dog frog; elephant
+dog' parrot elephant
+            elephant; cat - cat" cat
+котик
+котик
+котик
+котик
