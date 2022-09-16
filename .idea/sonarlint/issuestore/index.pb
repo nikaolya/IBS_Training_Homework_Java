@@ -1,9 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 \
 ,src/main/java/solution/Java_OOP/Caramel.java,e\7\e7d8ff938ea88864f241d1271fd3ecc0d845bb58
 ^

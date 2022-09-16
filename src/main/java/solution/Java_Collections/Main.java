@@ -29,11 +29,11 @@ public class Main {
 		Collections.sort(wordsList);
 		wordsList.forEach(System.out::println);
 
-		System.out.println("\nWords frequency in descending order:");
+		System.out.println("\nWords sorted by the number of occurrences in the text:");
 		Map<String, Long> wordsFreq = wordsList.stream()
 				.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 		wordsFreq.entrySet().stream().sorted(Collections.reverseOrder(Map.Entry.comparingByValue()))
-				.forEach(i -> System.out.println(i.getKey() + " - " + i.getValue()*100/N +  "%"));
+				.forEach(System.out::println);
 
 		System.out.println("\nThe most frequent word(s):");
 		Long maxFreq = wordsFreq.entrySet().stream().max(Map.Entry.comparingByValue()).get().getValue();
