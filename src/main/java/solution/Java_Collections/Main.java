@@ -12,7 +12,7 @@ public class Main {
 	public static void main(String[] args) {
 		List<String> wordsList = new ArrayList<>();
 
-		String fileName = "src/main/resources/file.txt";
+		String fileName = "src/main/resources/emptyFile.txt";
 
 		Pattern pattern = Pattern.compile("\\W+", Pattern.UNICODE_CHARACTER_CLASS);
 
@@ -36,7 +36,11 @@ public class Main {
 				.forEach(System.out::println);
 
 		System.out.println("\nThe most frequent word(s):");
-		Long maxFreq = wordsFreq.entrySet().stream().max(Map.Entry.comparingByValue()).get().getValue();
+		Long maxFreq = 0L;
+		Optional<Map.Entry<String, Long>> optional = wordsFreq.entrySet().stream().max(Map.Entry.comparingByValue());
+		if (optional.isPresent()){
+			maxFreq = optional.get().getValue();
+		}
 		for(Map.Entry<String, Long> item : wordsFreq.entrySet()){
 			if (item.getValue() == maxFreq){
 				System.out.println(item.getKey() + " - " + item.getValue()*100/N +  "%");
