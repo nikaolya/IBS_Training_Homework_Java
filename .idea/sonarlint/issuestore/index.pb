@@ -1,6 +1,4 @@
 
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 \
 ,src/main/java/solution/Java_OOP/Caramel.java,e\7\e7d8ff938ea88864f241d1271fd3ecc0d845bb58
 ^
@@ -19,3 +17,8 @@ Y
 )src/main/java/solution/Java_OOP/Main.java,a\c\ac957e6a2944d5514f181e6eae5550d3a030e61f
 f
 6src/main/java/solution/Java_OOP/BoxImplementation.java,a\e\aea380fa6488fcfc7c624a7de7ff1ba16b5bf3cd
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+a
+1src/main/java/solution/Java_Collections/Main.java,7\f\7fe60c68a9b0a4488be38240151841bae8868a04
